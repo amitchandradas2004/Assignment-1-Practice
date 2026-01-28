@@ -177,6 +177,9 @@ header {
   box-shadow: 1px 1px 1px 1px rgb(226, 235, 238);
   border: 1px solid green;
 }
+.card p {
+  color: #627382;
+}
 .card:hover {
   background-color: #daddef;
 }
@@ -359,5 +362,26 @@ header {
   }
   .notes-info {
     font-size: 1.5rem;
+  }
+  /* Cards section */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 95%;
+    height: 280px;
+    gap: 20px;
+  }
+  .card {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 120%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(226, 235, 238);
+    border: 1px solid green;
+  }
+  .card img {
+    width: 25%;
   }
 }
