@@ -157,6 +157,33 @@ header {
   font-size: 1rem;
   color: #627382;
 }
+/* Cards section */
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  height: 250px;
+  justify-self: center;
+  align-content: center;
+  gap: 10px;
+  /* border: 1px solid darkblue; */
+}
+.card{
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  height: 110%;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(226, 235, 238);
+  border: 1px solid green;
+}
+.card:hover{
+  background-color: #daddef;
+}
+.card img{
+  width: 25%;
+}
 /* Respnsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Navbar section */
