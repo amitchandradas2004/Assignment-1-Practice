@@ -325,6 +325,55 @@ header {
   .card img {
     width: 15%;
   }
+  /* Brain section */
+  .Brain {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 150%;
+    padding: 20px;
+    margin-top: 300px;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .brain {
+    text-align: center;
+    width: 90%;
+  }
+  .brain img {
+    width: 60%;
+  }
+  .brain-info {
+    width: 80%;
+    height: 70%;
+    padding: 5px 2px;
+  }
+
+  .solution {
+    font-size: 0.7rem;
+    color: #469165;
+  }
+  .second {
+    color: #001931;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .second-info {
+    color: #627382;
+    font-size: 0.8rem;
+    padding: 5px 0;
+  }
+  .brain-point {
+    text-align: start;
+    padding: 10px 0;
+    font-size: 0.7rem;
+  }
+  .brain-point img {
+    width: 3%;
+  }
 }
 
 /* Responsive for large devices */
