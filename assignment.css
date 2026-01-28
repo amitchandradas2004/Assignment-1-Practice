@@ -349,30 +349,26 @@ header {
     width: 80%;
     height: 70%;
     padding: 5px 2px;
+    text-align: center;
   }
 
   .solution {
-    font-size: 0.7rem;
-    color: #469165;
+    font-size: 0.6rem;
   }
   .second {
-    color: #001931;
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 5px 0;
+    font-size: 1.5rem;
   }
   .second-info {
-    color: #627382;
-    font-size: 0.8rem;
-    padding: 5px 0;
+    font-size: 0.6rem;
   }
   .brain-point {
     text-align: start;
-    padding: 10px 0;
-    font-size: 0.7rem;
+    padding: 8px 0;
+    font-size: 0.6rem;
+    text-align: center;
   }
   .brain-point img {
-    width: 3%;
+    width: 2%;
   }
 }
 
