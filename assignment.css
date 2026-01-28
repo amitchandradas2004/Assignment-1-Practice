@@ -196,20 +196,18 @@ header {
   align-self: center;
   align-items: center;
   gap: 15px;
-  border: 1px solid saddlebrown;
 }
 .brain img {
   width: 85%;
 }
 .brain-info {
-  width: 90%;
-  /* height: 100%; */
-  border: 1px solid darkblue;
+  width: 80%;
+  height: 70%;
   padding: 5px 2px;
 }
 
 .solution {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: #469165;
 }
 .second {
@@ -220,14 +218,16 @@ header {
 }
 .second-info {
   color: #627382;
+  font-size: 0.8rem;
   padding: 5px 0;
 }
 .brain-point {
   text-align: start;
   padding: 10px 0;
+  font-size: 0.7rem;
 }
 .brain-point img {
-  width: 4%;
+  width: 3%;
 }
 /* Respnsive for mobile devices */
 @media screen and (max-width: 576px) {
