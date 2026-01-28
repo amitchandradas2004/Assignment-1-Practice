@@ -277,13 +277,13 @@ header {
     height: 6%;
   }
   .Structured {
-    padding: px 0;
+    padding: 5px 0;
   }
   .thinking {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .note {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .header-info {
     font-size: 1.2rem;
@@ -304,5 +304,17 @@ header {
     font-size: 0.8rem;
     width: 30%;
     height: 30px;
+  }
+  /* Notes section */
+  .notes {
+    width: 70%;
+    height: 100%;
+    padding: 50px;
+  }
+  .notes-title {
+    font-size: 3rem;
+  }
+  .notes-info {
+    font-size: 1.5rem;
   }
 }
