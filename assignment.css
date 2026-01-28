@@ -158,7 +158,7 @@ header {
   color: #627382;
 }
 /* Cards section */
-.cards{
+.cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 90%;
@@ -166,9 +166,8 @@ header {
   justify-self: center;
   align-content: center;
   gap: 10px;
-  /* border: 1px solid darkblue; */
 }
-.card{
+.card {
   text-align: center;
   align-content: center;
   width: 100%;
@@ -178,10 +177,10 @@ header {
   box-shadow: 1px 1px 1px 1px rgb(226, 235, 238);
   border: 1px solid green;
 }
-.card:hover{
+.card:hover {
   background-color: #daddef;
 }
-.card img{
+.card img {
   width: 25%;
 }
 /* Respnsive for mobile devices */
@@ -262,6 +261,23 @@ header {
   }
   .notes-info {
     font-size: 0.8rem;
+  }
+  /* Cards section */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 270px;
+    width: 95%;
+    height: 200px;
+    gap: 40px;
+  }
+  .card {
+    width: 100%;
+    height: 110%;
+    padding: 10px;
+  }
+  .card img {
+    width: 15%;
   }
 }
 
