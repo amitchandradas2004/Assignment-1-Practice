@@ -80,12 +80,12 @@ header {
   padding: 8px 0;
 }
 .thinking {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   font-weight: 900;
 }
 .note {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #30b868;
   font-weight: 900;
 }
@@ -138,6 +138,24 @@ header {
 }
 .How:hover {
   background-color: rgb(83, 144, 78);
+}
+/* Notes section */
+.notes {
+  width: 70%;
+  height: 100%;
+  padding: 20px;
+  justify-self: center;
+  text-align: center;
+  align-content: center;
+}
+.notes-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #001931;
+}
+.notes-info {
+  font-size: 1rem;
+  color: #627382;
 }
 /* Respnsive for mobile devices */
 @media screen and (max-width: 576px) {
