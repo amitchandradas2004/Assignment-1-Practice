@@ -224,6 +224,18 @@ header {
   .How {
     font-size: 0.6rem;
   }
+  /* Notes section */
+  .notes {
+    width: 70%;
+    height: 100%;
+    padding: 30px;
+  }
+  .notes-title {
+    font-size: 1.4rem;
+  }
+  .notes-info {
+    font-size: 0.8rem;
+  }
 }
 
 /* Responsive for large devices */
