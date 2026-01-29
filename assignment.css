@@ -229,6 +229,19 @@ header {
 .brain-point img {
   width: 3%;
 }
+.Ready{
+  border: 1px solid darkblue;
+  width: 80%;
+  height: 200px;
+  justify-self: center;
+  text-align: center;
+  align-content: center;
+}
+.ready-title{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /* Respnsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Navbar section */
